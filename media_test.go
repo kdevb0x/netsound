@@ -1,4 +1,4 @@
-package server
+package netsound
 
 import (
 	"io/ioutil"
