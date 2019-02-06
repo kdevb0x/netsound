@@ -9,5 +9,5 @@ import (
 )
 
 type StreamDialer struct {
-	*net.Conn
+	*net.Dialer
 }
