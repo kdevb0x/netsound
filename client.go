@@ -3,3 +3,11 @@
 // of the MIT license.  See the LICENSE file for details.
 
 package netsound
+
+import (
+	"net"
+)
+
+type StreamDialer struct {
+	*net.Conn
+}
