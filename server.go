@@ -20,4 +20,3 @@ func NewStreamServer() *StreamServer {
 	srv := &StreamServer{}
 	return srv
 }
-addr string
